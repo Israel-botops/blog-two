@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+  padding: 40px 20px;
+  background: #e3f2fd;
+}
+
+.blog-posts h2 {
+  text-align: center;
+  color: #1565c0;
+  margin-bottom: 30px;
+}
+
+.post {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 6px solid #42a5f5;
+  max-width: 700px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
