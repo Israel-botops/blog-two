@@ -76,9 +76,9 @@ body {
 }
 
 /* Footer */
-footer {
+.footer {
   background: #0d47a1;
-  color: white;
+  color: white; 
   text-align: center;
   padding: 20px;
 }
